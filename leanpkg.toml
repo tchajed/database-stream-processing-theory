@@ -1,0 +1,8 @@
+[package]
+name = "dbsp"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.49.1"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "ee0c179cd3c8a45aa5bffbf1b41d8dbede452865"}
